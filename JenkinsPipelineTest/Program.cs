@@ -14,7 +14,7 @@ namespace JenkinsPipelineTest
 
             var service = new PipelineService();
 
-            Console.WriteLine($"The service says: {service.GetGreeting()}");
+            Console.WriteLine("The service says: " + service.GetGreeting());
             Console.WriteLine("Press Enter to Exit, Thanks for playing");
             Console.ReadLine();
         }
