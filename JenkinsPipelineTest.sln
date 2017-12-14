@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsPipelineTest", "JenkinsPipelineTest\JenkinsPipelineTest.csproj", "{EB3BABB4-0C92-4497-9D80-9C4324CA4FDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JenkinsPipelineTest.Tests", "JenkinsPipelineTest.Tests\JenkinsPipelineTest.Tests.csproj", "{CC74D512-E41F-44AF-9BC8-C0633EE95FCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EB3BABB4-0C92-4497-9D80-9C4324CA4FDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB3BABB4-0C92-4497-9D80-9C4324CA4FDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB3BABB4-0C92-4497-9D80-9C4324CA4FDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC74D512-E41F-44AF-9BC8-C0633EE95FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC74D512-E41F-44AF-9BC8-C0633EE95FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC74D512-E41F-44AF-9BC8-C0633EE95FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC74D512-E41F-44AF-9BC8-C0633EE95FCE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
