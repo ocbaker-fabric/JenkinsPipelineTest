@@ -17,7 +17,7 @@ pipeline {
       parallel {
         stage('Archive') {
           steps {
-            archiveArtifacts '.\\JenkinsPipelineTest\\bin\\Release'
+            archiveArtifacts 'JenkinsPipelineTest\\bin\\Release'
           }
         }
         stage('List Directory') {
