@@ -15,9 +15,9 @@ pipeline {
     }
     stage('Archive') {
       parallel {
-        stage('Archive') {
+        stage('Zip & Archive') {
           steps {
-            archiveArtifacts 'JenkinsPipelineTest\\bin\\Release\\*'
+            zip(zipFile: 'Release.zip', archive: true, dir: 'JenkinsPipelineTest\\bin\\Release')
           }
         }
         stage('List Directory') {
