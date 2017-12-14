@@ -4,6 +4,7 @@ pipeline {
     stage('Message') {
       steps {
         echo 'Building Software'
+        sh 'dir'
       }
     }
     stage('Build') {
