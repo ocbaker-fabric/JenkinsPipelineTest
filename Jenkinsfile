@@ -14,8 +14,17 @@ pipeline {
       }
     }
     stage('Archive') {
-      steps {
-        archiveArtifacts 'JenkinsPipelineTest\\bin'
+      parallel {
+        stage('Archive') {
+          steps {
+            archiveArtifacts '.\\JenkinsPipelineTest\\bin\\Release'
+          }
+        }
+        stage('List Directory') {
+          steps {
+            bat 'dir /s /b'
+          }
+        }
       }
     }
   }
